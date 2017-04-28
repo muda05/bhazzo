@@ -1,0 +1,32 @@
+POST / payload HTTP / 1.1
+
+Host: localhost: 4567 
+X-Github-Pengiriman: 72d3162e-cc78-11e3-81ab-4c9367dc0958 
+User-Agent: GitHub-Hookshot / 044aadd 
+Content-Type: application / json 
+Isi-Length: 6615 
+X-GitHub-Event: issues
+
+{ 
+  "Action": "dibuka", 
+  "masalah": { 
+    "url": "https://api.github.com/repos/octocat/Hello-World/issues/1347", 
+    "number": 1347, 
+    .. . 
+  }, 
+  "repositori": { 
+    "id": 1296269, 
+    "FULL_NAME": "octocat / Hello-World", 
+    "pemilik": { 
+      "login": "octocat", 
+      "id": 1, 
+      ... 
+    }, 
+    ... 
+  }, 
+  "pengirim": { 
+    "login": "oktocat", 
+    "id": 1, 
+    ... 
+  } 
+}

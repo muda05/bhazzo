@@ -1,0 +1,68 @@
++ Panduan hacking untuk pengembang SDK
+ + ==
+ +
+ + Pertama-tama
+ + -
+ +
+ + Silahkan jalankan `make install-devtool` .
+ +
+ + Cara menjalankan tes
+ + -
+ +
+ + Gunakan `make test` .
+ +
+ + Cara mengeksekusi [ PHP_CodeSniffer ] (https://github.com/squizlabs/PHP_CodeSniffer)
+ + -
+ +
+ + Gunakan `make phpcs` .
+ +
+ + Cara mengeksekusi [ PHPMD ] (https://phpmd.org/)
+ + -
+ +
+ + Gunakan `make phpmd` .
+ +
+ + Bagaimana mengeksekusi mereka semua
+ + -
+ +
+ + `Make`
+ +
+ + Arus Rilis
+ + -
+ +
+ + 1. Buatlah tag git (proyek ini menggunakan versi semantik)
+ + 1. Tekan tanda ke asal
+ +
+ + Itu saja Ini akan dipublikasikan di [ komposer ] (https://packagist.org/packages/linecorp/line-bot-sdk) secara otomatis.
+ +
+ + Misalnya
+ +
+ + `` `
+ + $ Git tag 1.2.3
+ + $ Git push origin 1.2.3
+ +`` `
+ +
+   Melihat  
+16  README.md
+ @@ -184,21 +184,7 @@ Persyaratan
+  Untuk pengembang SDK
+  -
+  
+ - ### Bagaimana  cara menjalankan tes
+ -
+ -Gunakan `make test` .
+ -
+ - ### Bagaimana cara mengeksekusi  [ PHP_CodeSniffer ] (https://github.com/squizlabs/PHP_CodeSniffer)
+ -
+ -Gunakan `make phpcs` .
+ -
+ - ### Bagaimana cara mengeksekusi  [ PHPMD ] (https://phpmd.org/)
+ -
+ -Gunakan `make phpmd` .
+ -
+ - ### Bagaimana  mengeksekusi mereka semua
+ -
+ - `buat`
+ + Silakan lihat [ HACKING.md ] (/ HACKING.md).
+  
+  Lihat juga
+  -
